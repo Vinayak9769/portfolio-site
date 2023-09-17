@@ -1,0 +1,164 @@
+div{
+    margin: 0,auto;
+}
+a, a:hover, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+ }
+.cent-text{
+    position: absolute;
+    width: 938px;
+    height: 308px;
+    left: 281px;
+    top: 205px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 145px;
+    animation: fadeIn 5s;
+
+    color: #FFFFFF;
+
+
+    }
+    .img{
+    position: absolute;
+    width: 314px;
+    height: 368px;
+    left: 1350px;
+    top: 335px;
+    max-width: 100%;
+    height: auto; 
+    background: url(image.png);
+    animation: fadeIn 5s;
+
+    }
+.playful{
+    color: red;
+    position: absolute;
+    animation: playful 8s infinite;
+    margin-left: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@keyframes playful {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+}
+.wrapper{
+    position: absolute;
+    top:684px;
+    left: 281px;
+    animation: fadeIn 2s;
+    
+  }
+  
+  .about {
+    
+    color: #FFFFFF;
+    width: 34ch;
+    animation: typing 4s steps(34), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.linkedin{
+    position: absolute;
+    left: 1477px;
+    top: 76px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    transition: transform .2s;
+    animation: fadeIn 5s;
+    margin: 0 auto;
+}
+.linkedin:hover {
+    transform: scale(1.1);
+}
+
+.github{
+    position: absolute;
+    left: 1340px;
+    top: 74px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    transition: transform .2s;
+    margin: 0 auto;
+    animation: fadeIn 4s;
+}
+.github:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.resume{
+  font-family: Arial;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 86px;
+  left:1129px;
+  width: 127px;
+  height: 39px;
+  font-size: 32px;
+  transition: transform .2s;
+  animation: fadeIn 3s;
+
+  
+}
+.resume:hover{
+  transform: scale(1.1);
+}
+.project-button{
+background-color: black;
+color: white;
+font-family: Arial;
+font-weight: 700;
+color: white;
+position: absolute;
+top: 804px;
+left: 840px;
+transition: transform .2s;
+animation: fadeIn 5s;
+border: 0px;
+cursor: pointer;
+
+}
+.project-button:hover{
+  transform: scale(1.1);
+}
+.vin{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: absolute;
+font-weight: 700;
+font-size: 60px;
+width: 78px;
+height: 73px;
+top: 65px;
+left: 284px;
+animation: fadeIn 2s;
+}
+
